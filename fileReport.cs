@@ -1,5 +1,5 @@
 using System;                       //contains fundamental classes and base classes 
-using System.IO;                    //allows us to read and write files in C#
+using System.IO;                    //allows us to work with files and directories in C#
 using System.Linq;                  //provides classes and interfaces that support queries that use Language-Integrated Query (LINQ)
 using System.Xml.Linq;              //needed to use linq's xml builder methods
 using System.Collections.Generic;   //needed to access C#'s data structures
@@ -18,14 +18,28 @@ namespace labAssignment4
         */
         static IEnumerable<string> EnumerateFilesRecursively(string path)
         {
-            foreach (string d in Directory.EnumerateDirectories(path))          //iterate through the folder
-            {
-                foreach (string f in Directory.EnumerateFiles(d))               //iterate through the files in the folder
+            try{
+                foreach (string directory in Directory.EnumerateDirectories(path))          //iterate through the folder
                 {
-                    yield return f;                                             //generate the iterator
-                }
-                EnumerateFilesRecursively(d);
-            }            
+                    foreach (string file in Directory.EnumerateFiles(d))                    //iterate through the files in the folder
+                    {
+                        yield return file;                                                  //generate the iterator
+                    }
+                    EnumerateFilesRecursively(d);
+                }     
+            }
+            catch (System.Exception excpt)
+            {
+                Console.WriteLine(excpt.Message);
+            }
+        }
+
+        /*
+        All the byte size units a file can have. Similar to the preview shown in lab.
+        */
+        private enum FileSizes : byte 
+        {
+            B, kB, MB, GB, TB, PB, EB, ZB, YB;
         }
 
         /*
@@ -33,6 +47,7 @@ namespace labAssignment4
         */
         static string FormatByteSize(long byteSize){
             //TODO: Implement this function
+            const double kilo = (long)Math.Pow(10, 3);
         }
 
         /*
