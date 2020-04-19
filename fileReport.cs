@@ -39,14 +39,15 @@ namespace labAssignment4
         */
         static string FormatByteSize(long byteSize)
         {
-            //TODO: Implement this function
+            //TODO: test the program to see if this method works as intended
             double formatByteSize = byteSize;
-            const double kilo = 1000;
+            const double kiloValue = 1000;
 
             FileSizes fileSize = 0;
-            for(fileSize = FileSizes.B; formatByteSize >= kilo && fileSize < FileSizes.YB; ++fileSize)
+            //
+            for(fileSize = FileSizes.B; formatByteSize >= kiloValue && fileSize < FileSizes.YB; ++fileSize)
             {
-                formatByteSize /= kilo;
+                formatByteSize /= kiloValue;
             }
             
             return(formatByteSize.ToString());
