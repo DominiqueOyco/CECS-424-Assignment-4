@@ -10,7 +10,7 @@ and to create an XML document based on that data
 */
 namespace labAssignment4
 {
-    class fileReport
+    internal static class FileReport
     {
         /*
         This function enumerates all files in a given folder recursively including 
@@ -18,36 +18,38 @@ namespace labAssignment4
         */
         static IEnumerable<string> EnumerateFilesRecursively(string path)
         {
-            try{
-                foreach (string directory in Directory.EnumerateDirectories(path))          //iterate through the folder
-                {
-                    foreach (string file in Directory.EnumerateFiles(d))                    //iterate through the files in the folder
-                    {
-                        yield return file;                                                  //generate the iterator
-                    }
-                    EnumerateFilesRecursively(d);
-                }     
-            }
-            catch (System.Exception excpt)
+            foreach (string directory in Directory.EnumerateDirectories(path))              //iterate through the folder
             {
-                Console.WriteLine(excpt.Message);
+                foreach (string file in Directory.EnumerateFiles(directory))                //iterate through the files in the folder
+                {
+                    yield return file;                                                      //generate the iterator
+                }
+                EnumerateFilesRecursively(directory);
             }
         }
 
+        
         /*
-        All the byte size units a file can have. Similar to the preview shown in lab.
+        All the byte size units a file can have. Inspired by the preview shown in lab.
         */
-        private enum FileSizes : byte 
-        {
-            B, kB, MB, GB, TB, PB, EB, ZB, YB;
-        }
+        private enum FileSizes : byte { B, KB, MB, GB, TB, PB, EB, ZB, YB }                 //units (bytes) for the sizes of the file
 
         /*
         This function formats a byte size in human readable form
         */
-        static string FormatByteSize(long byteSize){
+        static string FormatByteSize(long byteSize)
+        {
             //TODO: Implement this function
-            const double kilo = (long)Math.Pow(10, 3);
+            double formatByteSize = byteSize;
+            const double kilo = 1000;
+
+            FileSizes fileSize = 0;
+            for(fileSize = FileSizes.B; formatByteSize >= kilo && fileSize < FileSizes.YB; ++fileSize)
+            {
+                formatByteSize /= kilo;
+            }
+            
+            return(formatByteSize.ToString());
         }
 
         /*
@@ -56,10 +58,10 @@ namespace labAssignment4
         number of files with this type, and the total size of all files with 
         the type respectively
         */
-        static XDocument CreateReport(IEnumerable<string> files)
-        { 
-            //TODO: Implement this function
-        }
+//        static XDocument CreateReport(IEnumerable<string> files)
+//        { 
+//            //TODO: Implement this function
+//        }
 
         /*
         The main function takes in two command line arguments: 
