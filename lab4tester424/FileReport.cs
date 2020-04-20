@@ -33,8 +33,7 @@ namespace lab4tester424
             }
             EnumerateFilesRecursively(path);         //recursive call
         }
-
-
+        
         /*
         All the byte size units a file can have. Inspired by the preview shown in lab.
         */
@@ -119,8 +118,7 @@ namespace lab4tester424
         /*
         The main function takes in two command line arguments: 
         1.) The path to the input folder
-        2.) The path of the HTML report output file
-        
+        2.) The path of the HTML report output file        
         catch if there is no directory or if it's invalid
         */
         static void Main(string[] args)
