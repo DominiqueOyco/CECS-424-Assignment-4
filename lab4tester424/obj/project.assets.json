@@ -14,17 +14,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/lab4tester424.csproj",
+      "projectUniqueName": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/lab4tester424.csproj",
       "projectName": "lab4tester424",
-      "projectPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/lab4tester424.csproj",
+      "projectPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/lab4tester424.csproj",
       "packagesPath": "/Users/rain/.nuget/packages/",
-      "outputPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/obj/",
+      "outputPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/rain/.nuget/NuGet/NuGet.Config"
+        "/Users/rain/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -54,13 +54,7 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

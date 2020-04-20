@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/lab4tester424.csproj",
+    "projectUniqueName": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/lab4tester424.csproj",
     "projectName": "lab4tester424",
-    "projectPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/lab4tester424.csproj",
-    "outputPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/obj/",
+    "projectPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/lab4tester424.csproj",
+    "outputPath": "/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
