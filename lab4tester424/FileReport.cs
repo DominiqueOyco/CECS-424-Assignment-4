@@ -7,7 +7,7 @@ using System.Linq;                  //provides classes and interfaces that suppo
 using System.Xml.Linq;              //needed to use LINQ's xml builder methods
 using System.Collections.Generic;   //needed to access C#'s data structures
 
-//TERMINAL COMMAND TO RUN: dotnet run /Users/rain/Desktop/lol /Users/rain/Desktop/lol/lol.html
+//TERMINAL COMMAND TO RUN: dotnet run /Users/rain/Desktop/A /Users/rain/Desktop/A/A.html
 
 /*
 This program uses C# and LINQ to iterate files, to query, group, and order data, 
