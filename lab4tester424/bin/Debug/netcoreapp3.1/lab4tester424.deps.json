@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "cecs-424-03-spring-2020-assignment-4/1.0.0": {
+      "lab4tester424/1.0.0": {
         "runtime": {
-          "cecs-424-03-spring-2020-assignment-4.dll": {}
+          "lab4tester424.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "cecs-424-03-spring-2020-assignment-4/1.0.0": {
+    "lab4tester424/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
