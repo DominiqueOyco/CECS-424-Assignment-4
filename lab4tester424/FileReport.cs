@@ -55,7 +55,7 @@ namespace lab4tester424
             //to make sure that the numerical sizes of files are > 1 and < 1000
             for(fileSize = FileSizes.B; formattedByteSize >= k && fileSize < FileSizes.ZB; ++fileSize)
             {
-                formattedByteSize /= k;        //
+                formattedByteSize /= k;      //formattedByteSize = formattedByteSize / 1000  
             }
             
             //N2 is equivalent to %.2f in other languages. It prints a double/float in fixed 2 decimal numbers

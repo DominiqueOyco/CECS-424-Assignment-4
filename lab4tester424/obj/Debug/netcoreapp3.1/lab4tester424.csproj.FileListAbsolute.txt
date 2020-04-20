@@ -10,3 +10,15 @@
 /Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.dll
 /Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.pdb
 /Users/rain/Documents/CSULB/SPRING 2020/CECS 424/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.genruntimeconfig.cache
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/bin/Debug/netcoreapp3.1/lab4tester424.deps.json
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/bin/Debug/netcoreapp3.1/lab4tester424.runtimeconfig.json
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/bin/Debug/netcoreapp3.1/lab4tester424.runtimeconfig.dev.json
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/bin/Debug/netcoreapp3.1/lab4tester424.dll
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/bin/Debug/netcoreapp3.1/lab4tester424.pdb
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.csprojAssemblyReference.cache
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.csproj.CoreCompileInputs.cache
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.AssemblyInfoInputs.cache
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.AssemblyInfo.cs
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.dll
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.pdb
+/Users/rain/Documents/CSULB/SPRING 2020/CECS 424/CECS 424-03 Spring 2020 Assignment 4 Student Account/cecs-424-03-spring-2020-assignment-4/lab4tester424/obj/Debug/netcoreapp3.1/lab4tester424.genruntimeconfig.cache
